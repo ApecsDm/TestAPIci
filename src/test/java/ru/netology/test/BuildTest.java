@@ -18,7 +18,7 @@ public class BuildTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("some integer"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
